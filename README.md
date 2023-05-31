@@ -11,7 +11,7 @@ The results of the module evaluation are from our implementations using Python 3
 #### 2.1 Clean Raw Datasets
 We cleaned all the datasets by removing duplicate nodes, nodes with zero-valued attributes, isolated nodes, and self-loops.<br>
 Table 1 shows the statistics of the cleaned datasets. All datasets caputure undirected graphs.<br>
-<!-- ![](https://github.com/2100271064/A-Re-evaluation-Of-Deep-Learning-Methods-For-Attributed-Graph-Clustering/img/table_1.jpg) -->
+![](https://github.com/2100271064/A-Re-evaluation-of-Deep-Learning-Methods-for-Attributed-Graph-Clustering/img/table_1.jpg)
 ><b>Table Description</b><br>
 >`"|V|"` indicates the number of nodes.<br>
 >`"|E|"` indicates the number of edges.<br>
@@ -26,7 +26,7 @@ Hence, evaluating attributed graph clustering algorithms using these datasets is
 #### 2.2 Proposed New Datasets
 We create new benchmark datasets by relabeling the nodes in the connected subgraphs in the existing benchmark dataset.<br>
 The nodes in the new datasets are relabeled such that the attributes of the nodes in the same group are similar and the majority of node pairs in the same group are close in terms of graph proximity.<br>
-<!-- ![](https://github.com/2100271064/A-Re-evaluation-Of-Deep-Learning-Methods-For-Attributed-Graph-Clustering/img/table_2.jpg) -->
+![](https://github.com/2100271064/A-Re-evaluation-of-Deep-Learning-Methods-for-Attributed-Graph-Clustering/img/table_2.jpg)
 ><b>Table Description</b><br>
 >The table description is similar to Table 1, except that some datasets have external nodes called `"outliers"`. 
 >These points are not included in the new data, but only exist to make the graph structure connected. 
