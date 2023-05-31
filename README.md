@@ -1,4 +1,4 @@
-A-Re-evaluation-Of-Deep-Learning-Methods-For-Attributed-Graph-Clustering
+A-Re-evaluation-of-Deep-Learning-Methods-for-Attributed-Graph-Clustering
 ===
 
 ## 1. Experimental Environment
