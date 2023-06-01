@@ -32,9 +32,9 @@ The nodes in the new datasets are relabeled such that the attributes of the node
 ![](https://github.com/2100271064/A-Re-evaluation-of-Deep-Learning-Methods-for-Attributed-Graph-Clustering/blob/main/img/table_2.jpg)
 
 ><b>Table Description</b><br>
->The table description is similar to Table 1, except that some datasets have external nodes called `"outliers"`. 
->These points are not included in the new data, but only exist to make the graph structure connected. 
->They are learned during the network training, but removed during the evaluation stage.
+>The table description is similar to Table 1, except that some datasets have external nodes called `"outliers"`. <br>
+>Although these points, which only exist to make the graph structure connected, are included in the new datasets, we should ignore them when evaluate performance.
+>In other words, they are learned during the network training, but removed during the evaluation stage.
 
 * Download the complete datasets : [Datasets](https://pan.baidu.com/s/1kq9z_YiRzIoYTMITbgR3sg?pwd=fgh2)
 
